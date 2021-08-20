@@ -1,0 +1,75 @@
+
+.ad-form {
+    max-width: none;
+    margin: 60px;
+    width: 50%;
+}
+
+.form-title {
+    font-size: 30px;
+    border-bottom: 2px grey solid;
+    margin-bottom: 10px;
+}
+
+.slider {
+    overflow-y: hidden;
+    height: 100px;
+    width: 350px;
+    cursor: pointer;
+    transition:
+    height .5s,
+    display 1s 2s;
+}
+
+.add-option {
+    width: 30px;
+    height: 25px;
+    font-size: 10px;
+    margin-right: 10px;
+    background-color: rgba(230,230,230,0.5);
+    color: black;
+    border: none;
+    max-width: none !important;
+    justify-self: center;
+    text-align: center
+}
+
+.add-option:hover {
+    background-color: rgba(232,232,232,0.9);
+    color: black;
+}
+
+.add-option:focus {
+    box-shadow: none!important;
+    background-color: rgba(232,232,232,0.5);
+    color: black;
+    border: none;
+}
+.add-option:active {
+    background-color: rgba(232,232,232,0.9);
+    color: black;
+    border: none;
+}
+.form-label {
+    margin-bottom: 0.2rem!important;
+}
+
+.slider.slider-closed {
+    margin-bottom: 0!important;
+    height: 0;
+}
+
+.additional-option {
+    width: 300px;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 620px) {
+    .form-title {
+        font-size: 20px;
+    }
+}

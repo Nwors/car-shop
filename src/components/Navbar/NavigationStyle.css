@@ -1,0 +1,17 @@
+
+.container-width-none {
+    max-width: none!important;
+}
+
+.container-position-fixed {
+
+}
+
+.logo-image {
+    background-image: url("../../resources/img/logo.com.png");
+    width: 35px;
+    height: 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

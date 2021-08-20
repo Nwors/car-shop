@@ -1,0 +1,84 @@
+
+.car-page-container {
+    width: 90%;
+    margin: 80px auto auto auto;
+
+}
+.price {
+    font-size: 50px;
+    margin-right: 20%;
+    float: right;
+}
+.name {
+    font-size: 50px;
+}
+
+.btn-edit {
+    font-size: 15px;
+    margin-right: 10px;
+    background-color: rgba(230,230,230,0.5);
+    color: black;
+    border: none;
+    max-width: none !important;
+    justify-self: center;
+    text-align: center
+}
+
+.btn-edit:hover {
+    background-color: rgba(232,232,232,0.9);
+    color: black;
+}
+
+.btn-edit:focus {
+    box-shadow: none!important;
+    background-color: rgba(232,232,232,0.5);
+    color: black;
+    border: none;
+}
+.btn-edit:active {
+    background-color: rgba(232,232,232,0.9);
+    color: black;
+    border: none;
+}
+
+
+.description {
+    font-size: 18px;
+}
+.field-description {
+    margin-bottom: 15px;
+    font-size: 28px
+}
+.mini-field-name {
+    color: #616161;
+    font-size: 20px;
+}
+
+.btn-delete {
+    margin-right: 5px;
+}
+
+.field-description {
+    font-size: 20px;
+}
+
+.top-name {
+    border-bottom: solid 2px grey;
+}
+.image-container {
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    margin: auto;
+}
+
+@media screen and (max-width: 800px) {
+    .price {
+        float: left
+    }
+}
+

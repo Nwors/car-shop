@@ -1,0 +1,98 @@
+
+.cars-content {
+    margin:auto auto auto auto;
+}
+
+.cars-container {
+    max-width: 95%!important;
+}
+
+.btn-wrapper {
+    text-align: center;
+}
+
+.btn-next {
+    width: 200px;
+    background-color: rgba(230,230,230,0.5);
+    color: black;
+    border: none;
+    margin: auto auto auto auto;
+    max-width: none !important;
+    justify-self: center;
+}
+
+.grid-container {
+    width: 95%;
+    margin-top: 65px;
+    display: grid;
+    grid-template: auto / 0.85fr 5fr;
+}
+
+.left-menu {
+    border-right: solid 2px grey;
+}
+
+.btn-next:hover {
+    background-color: rgba(232,232,232,0.9);
+    color: black;
+}
+
+.btn-next:focus {
+    box-shadow: none!important;
+    background-color: rgba(232,232,232,0.5);
+    color: black;
+    border: none;
+}
+.btn-next:active {
+    background-color: rgba(232,232,232,0.9);
+    color: black;
+    border: none;
+}
+.filter-field {
+    margin: 5px;
+    width: 150px;
+}
+.filter-field-second {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 350px;
+}
+
+.filter-block {
+    text-align: center;
+}
+.filter-fields {
+    text-align: center;
+}
+.form-control {
+    display: unset!important;
+}
+.filter-name {
+    text-align: center;
+}
+
+@media screen and (max-width: 1940px) {
+    .grid-container {
+        margin-top: 6%;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .grid-container {
+        margin-top: 10%;
+    }
+    .grid-container {
+        grid-template: 0.85fr 5fr / auto;
+    }
+    .left-menu {
+        border-right: none;
+        border-bottom: 2px solid grey;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .grid-container {
+        margin-top: 18%;
+    }
+}
+
+
